@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+<!-- 文件输出格式 -->
+	<property name="PATTERN" value="%-12(%d{yyyy-MM-dd HH:mm:ss.SSS})  | -%-5level [%thread] %c [%L] -"></property>
+	<!-- test环境打印的日志文件路径 -->
+	<property name="TEST_FILE_PATH" value="c:/opt/ssm/logs"></property>
+	<!-- pro环境打印的日志文件路径 -->
+	<property name="PRO_FILE_PATH" value="/opt/ssm/logs"></property>
+	
+	<springProfile>
+		
+	</springProfile>
+</configuration>
